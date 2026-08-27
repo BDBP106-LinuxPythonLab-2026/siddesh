@@ -1,0 +1,20 @@
+1. i)     sed -n '/and/p' question1.sh
+   ii)    sed 's/language/lang/g' question1.sh
+   iii)   sed -n '/is/d' question1.sh 
+   iv)    sed '=' question1.sh | sed 'N;s/\n/ /'
+   v)     sed '1,2d' question1.sh
+   vi)    sed -n 1~2p question1.sh
+   vii)   sed 's/Python/python/g ; s/language/lang/g' question1.sh
+  
+  
+2. i)   awk '$2<25 {print $1}' question2.sh
+   ii)  awk '$3=="Physics" {print $1}' question2.sh
+   iii) awk '{print $0}' question > data2.csv
+   
+   
+3. i)   awk '!/>/' FASTA
+   ii)  awk 's/T/U/g' FASTA
+   iii) sed 's/seq1/human_gene/g' FASTA   
+
+
+4. awk '$4=="PHE" {print $2}' 1HK0.pdb > ~/siddeshsm/Lab13/PHE_atoms.xyz

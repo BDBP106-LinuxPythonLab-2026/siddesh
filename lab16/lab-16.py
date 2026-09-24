@@ -1,0 +1,162 @@
+import math
+
+# question 01
+# a=str(input("Enter your string here : "))
+# print(a)
+
+
+
+# question 02
+# # simple interest calculation
+# pri = float(input("Enter your principal amount here : "))
+# interest = float(input("Enter your interest : "))
+# t = int(input("Enter number of years : "))
+# # SI = ( pri * interest * t ) / 100
+# # print("The Simple interest  is : ",SI,"in time of : ",t)
+# print("your simple interest is : ",(pri * interest * t) / 100 )
+
+
+# question 03
+# program to check the person is elder to vote
+
+# name = str(input("Enter your name: "))
+# age = int(input("Enter your age: "))
+#
+# if age >= 18:
+#     print(("hello",name),"You are old enough to vote!")
+# else:
+#     print("hello",name,"You are old enough to vote!")
+
+
+# # question 04
+# # Trigonometrical functions
+# # import math
+# degree = float(input("Enter a degree: "))
+# rad = degree*(22/7)/180
+# sin = math.sin(rad)
+# cos = math.cos(rad)
+# tan = math.tan(rad)
+# sec = 1/math.cos(rad)
+# cosec = 1/math.sin(rad)
+# cot = math.cos(rad)/math.sin(rad)
+# print("sin0 : ",sin, "coa0 :",cos, "tan0 :",tan, "cosec0 :",cosec, "sec0 :",sec, "cot0 :",cot)
+
+
+# question 05
+# Quadratic equation
+import math
+# a = float(input("enter your first number: "))
+# b = float(input("enter your second number: "))
+# c = float(input("enter your third number: "))
+# sq1 = (((b**2 - 4*a*c)**0.5) / (2*a))
+# sq2 = (-((b**2 - 4*a*c)**0.5) / (2*a))
+# print("quadratic equation 1",sq1,"quadratic equation 2", sq2)
+
+
+
+# question 06
+# # sum of the digits in number
+# n = int(input('Enter a number: '))
+# sum = 0
+#
+# while n != 0:
+#     quo = n%10
+#     n = n // 10
+#     sum = sum + quo
+# print("sum of the digits of given number",sum)
+
+
+
+
+# question 07
+# checking for a number is palindrome
+
+# num = input("Enter a X")
+# for i in num:
+#
+# if num [1:] == num[-1:]
+
+
+
+# # question 09
+# # reverse the digits of number
+# n = int(input('Enter a number: '))
+# a = 0
+# while n != 0:
+#     quo = n%10
+#     a = a * 10 + quo
+#     n = n // 10
+# print(a)
+
+
+
+# question 11
+# to check that the given letter is vowel or consonant
+# a = str(input("enter a letter : "))
+# vowels = ['a','e','i','o','u']
+# for i in vowels:
+#     if a in vowels:
+#         print("your letter",a," is an vowel")
+#         break
+# else:
+#     print("your letter",a,"is a consonant")
+
+
+# question 13
+# factorial
+# a = int(input('Enter a number: '))
+## f = math.factorial(a)
+# f = 1
+# while a != 0:
+#     f = f * a
+#     a = a - 1
+# print(f)
+
+
+
+
+# question 14
+# Fibonacci numbers
+
+# f1 = 0
+# f2 = 1
+# f3 = f1 + f2
+# print(f1)
+# print(f2)
+# print(f3)
+# while f2 <= 25:
+#     f3 = f1 + f2
+#     fx = f3 + f2
+#
+#     f1 = f1 + 1
+#     f2 = f2 + 1
+#     print(fx)
+
+
+
+
+
+# # question 15
+# # Distance between two points
+# x1 = float(input('Enter the x value of first point : '))
+# y1 = float(input('Enter the y value of first point : '))
+# x2 = float(input('Enter the x value of second point : '))
+# y2 = float(input('Enter the y value of second point : '))
+#
+# # dis = ((x2-x1)**2 + (y2-y1)**2)**0.5
+# # dis = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+# print(dis)
+
+
+
+# question 16
+# # to find the type of triangle is
+# a = float(input("Enter the length of the first side of the triangle: "))
+# b = float(input("Enter the length of the second side of the triangle: "))
+# c = float(input("Enter the length of the third side of the triangle: "))
+# if a==b and b==c:
+#     print("the triangle is equilateral")
+# elif a==b or b==c or a==c:
+#     print("the triangle is isosceles")
+# else:
+#     print("the triangle is scalene")
